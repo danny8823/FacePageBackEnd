@@ -11,7 +11,7 @@ const PORT = 9999
 require('dotenv').config()
 
 mongoose
-    .connect(process.env.DB_URL)
+    .connect('mongodb+srv://dannyyoo714:Jesuschrist8823!@facepage.t6ipn.mongodb.net/FacePage?retryWrites=true&w=majority&appName=FacePage')
     .then(()=>{
         console.log('Database connected :)....')
     })
