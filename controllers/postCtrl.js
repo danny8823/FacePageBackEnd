@@ -50,6 +50,7 @@ const postController = {
         })
     }),
     deletePost: asyncHandler(async(req,res) => {
+        const {_id} = req.params
         const postToDelete = await Post.findByIdAndDelete(_id)
         res.json({
             postToDelete,
