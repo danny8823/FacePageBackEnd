@@ -20,7 +20,7 @@ mongoose
     })
 
 const corsOption = {
-    origin: ["http://localhost:3000"]
+    origin: ["https://facepage123456.netlify.app"]
 }
 
 server.use(cors(corsOption))
