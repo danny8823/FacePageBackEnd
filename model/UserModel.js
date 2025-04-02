@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema(
         },
         image: {
             type: String,
-            default: 'https://via.placeholder.com/250'
+            default: 'https://placehold.co/250x250'
         },
         password: {
             type: String,
